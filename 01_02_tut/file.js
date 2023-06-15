@@ -70,7 +70,7 @@ if(!fs.existsSync('./new')){
         if(err) throw err
         console.log('New Directory');
     });
-}
+}t
 
 if(fs.existsSync('./new')){
     fs.rmdir('./new' , (err)=>{
